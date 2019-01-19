@@ -1,0 +1,19 @@
+/*
+-- Query: SELECT * FROM handykrew.service_categories
+LIMIT 0, 1000
+
+-- Date: 2018-09-05 12:44
+*/
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (1,'Air-conditiner service','these serices are air conditioner services', LOAD_FILE('H:\hhh.jpg'),'JPG',2000,1,500,1,'00:00:05',180,4,'veeraswamy','2018-09-05 00:00:00','veeraswamy','2018-09-05 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (2,'Air-conditiner service','these serices are air conditioner services', LOAD_FILE('H:\hhh.jpg'),'JPG',2000,1,500,1,'00:00:05',180,4,'vamsy','2018-09-05 00:00:00','vamsy','2018-09-05 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (3,'Locksmith services','these services are a locksmith services', LOAD_FILE('H:\hhh.jpg'),'JPG',3000,1,600,1,'00:00:05',180,1,'varun','2018-09-05 17:39:03','varun','2018-09-06 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (4,'fan services','these serices are fan repair services', LOAD_FILE('H:\hhh.jpg'),'JPG',3000,0,900,1,'00:00:05',180,4,'sam','2018-09-05 17:39:03','sam','2018-09-07 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (5,'pipe repair','these services are pipe repair services', LOAD_FILE('H:\hhh.jpg'),'JPG',2000,1,600,1,'00:00:05',180,3,'mike','2018-09-05 17:39:03','mike','2018-09-05 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (6,'refrigirator services','these service are air refrigirator services', LOAD_FILE('H:\hhh.jpg'),'JPG',12000,1,500,1,'00:00:05',180,4,'david','2018-09-05 00:00:00','david','2018-09-06 00:00:00');
+
+INSERT INTO `service_categories` (`category_no`,`category_nm`,`description`,`category_logo_bytes`,`category_logo_type`,`fixed_charges`,`required_inspection`,`inspection_charges`,`is_emergency_service`,`average_resolution_time`,`warranty_in_days`,`service_no`,`created_by`,`created_dt`,`last_modified_by`,`last_modified_dt`) VALUES (7,'painting services','these services are painting  services', LOAD_FILE('H:\hhh.jpg'),'JPG',4000,1,1200,1,'00:00:05',180,2,'steev','2018-09-05 17:39:03','steev','2018-09-07 00:00:00');
