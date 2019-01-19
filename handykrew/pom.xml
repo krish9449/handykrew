@@ -14,13 +14,13 @@
 		<module>hkcustomer</module>
 		<module>hkdb</module>
 	</modules>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>com.handykrew</groupId>
 				<artifactId>hkservice</artifactId>
-  				<version>1.0-SNAPSHOT</version>
+				<version>1.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>javax.servlet</groupId>
@@ -110,6 +110,7 @@
 				<artifactId>validation-api</artifactId>
 				<version>2.0.1.Final</version>
 			</dependency>
+
 			<dependency>
 				<groupId>org.hibernate.validator</groupId>
 				<artifactId>hibernate-validator</artifactId>
@@ -160,24 +161,33 @@
 				<artifactId>tiles-autotag-core-runtime</artifactId>
 				<version>${tiles-autotag-core-runtime.version}</version>
 			</dependency>
-			
+
 			<dependency>
-			    <groupId>org.springframework.data</groupId>
-			    <artifactId>spring-data-jpa</artifactId>
-			    <version>2.0.1.RELEASE</version>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-jpa</artifactId>
+				<version>2.0.1.RELEASE</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.hibernate</groupId>
-			    <artifactId>hibernate-core</artifactId>
-			    <version>5.3.1.Final</version>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>5.3.1.Final</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.hibernate</groupId>
-			    <artifactId>hibernate-entitymanager</artifactId>
-			    <version>5.3.1.Final</version>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-entitymanager</artifactId>
+				<version>5.3.1.Final</version>
 			</dependency>
-			
-             
+
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>5.3.6.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-orm</artifactId>
+				<version>5.0.8.RELEASE</version>
+			</dependency>
 
 		</dependencies>
 	</dependencyManagement>
@@ -214,6 +224,6 @@
 		<tiles-autotag-core-runtime.version>1.1.0</tiles-autotag-core-runtime.version>
 
 	</properties>
-	
-	
+
+
 </project>

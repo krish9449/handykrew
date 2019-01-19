@@ -1,0 +1,2 @@
+com\handykrew\hkadmin\config\HKAdminWebMvcConfig.class
+com\handykrew\hkadmin\boot\HKAdminDispatcherServletInitializer.class

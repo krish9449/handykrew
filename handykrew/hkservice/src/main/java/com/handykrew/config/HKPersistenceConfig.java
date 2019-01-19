@@ -43,13 +43,51 @@ public class HKPersistenceConfig {
 		return dataSource;
 	}
 	
+	/*
+	@Bean(autowire=Autowire.BY_TYPE)
+	public LocalSessionFactoryBean sessionFactory() {
+		LocalSessionFactoryBean localSessionFactoryBean = null;
+		Properties hibernateProperties = null;
+		
+		hibernateProperties = new Properties();
+		hibernateProperties.put("show_sql", "true");
+		hibernateProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
+		hibernateProperties.put("format_sql", "true");
+		hibernateProperties.put("hibernate.hbm2ddl.auto", "update");
+		
+		localSessionFactoryBean = new LocalSessionFactoryBean();
+		localSessionFactoryBean.setHibernateProperties(hibernateProperties);
+		//localSessionFactoryBean.setAnnotatedPackages("com.ems.entities");
+		//localSessionFactoryBean.setPackagesToScan("com.ems.entities");
+		//localSessionFactoryBean.setAnnotatedClasses(Employee.class);
+		
+		return localSessionFactoryBean;
+	}
+	
+	@Bean(autowire=Autowire.BY_TYPE)
+	public HibernateTemplate hibernateTemplate() {
+		HibernateTemplate hibernateTemplate = null;
+
+		hibernateTemplate = new HibernateTemplate();
+		return hibernateTemplate;
+	}
+	
+	@Bean(autowire=Autowire.BY_TYPE)
+	public PlatformTransactionManager transactionManager() {
+		HibernateTransactionManager transactionManager = null;
+		transactionManager = new HibernateTransactionManager();
+		
+		return transactionManager;
+	}*/
+	
+	
 	/*@Bean
 	public JtaTransactionManagerFactoryBean jtaTransactionManagerFactoryBean() {
 		JtaTransactionManagerFactoryBean factoryBean = null;
 		
 		factoryBean = new JtaTransactionManagerFactoryBean();
 		return factoryBean;
-	}*/
+	}
 	@Bean(autowire = Autowire.BY_TYPE)
 	public JdbcTemplate jdbcTemplate() {
 		JdbcTemplate jdbcTemplate = null;
@@ -57,6 +95,8 @@ public class HKPersistenceConfig {
 		jdbcTemplate = new JdbcTemplate();
 		return jdbcTemplate;
 	}
+	
+	
 
 	@Bean(autowire = Autowire.BY_TYPE)
 	public PlatformTransactionManager transactionManager() {
@@ -64,6 +104,6 @@ public class HKPersistenceConfig {
 
 		transactionManager = new DataSourceTransactionManager();
 		return transactionManager;
-	}
+	}*/
 
 }
